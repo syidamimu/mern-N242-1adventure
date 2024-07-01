@@ -1,0 +1,248 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ fort-size: 17px;
+ font-family: "Roboto", sans-serif;
+}
+img{
+  width: 100%;
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 40px;
+  
+}
+h3{
+  font-size: 30px;
+}
+.container{
+  width:90%;
+  margin:auto;
+}
+
+section{
+  padding: 50px 0;
+}
+header{
+  background-image: url(../images/dawn.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: #0000004a;
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ position: fixed;
+}
+
+nav h4{
+ color:white;
+ font-size: 24px;
+
+}
+nav h4 span{
+ font-weight:100;
+}
+nav ul{
+ margin: 0;
+ padding: 0 0 0 223px;
+ list-style: none;
+ display: flex;
+ font-size: 17px;
+ font-weight: 800;
+}
+nav ul li{
+ margin: 0 0 0 20px;
+}
+nav ul li a{
+ text-decoration: none;
+ text-transform: capitalize;
+ color: white;
+}
+.container{
+ width:90%;
+ margin:auto;
+ display: flex;
+ justify-content: space-around;
+}
+.banner{ 
+ text-align: center;
+ color:white;
+ padding: 200px 0 150px;
+
+}
+.banner h3{
+ font-size: 30px;
+ font-style: italic;
+ margin:0 0 10px 0 ;
+}
+.banner span{
+ background-color: brown;
+ height:5px;
+ width: 160px;
+ display: inline-block;
+ border-radius: 5px;
+}
+.banner h1{
+ font-size: 70px;
+
+}
+.banner button{
+ background-color: brown;
+ color: white;
+ padding: 15px 30px;
+ font-size: 20px;
+ letter-spacing: 2px;
+ border: 1px solid brown;
+ border-radius: 25px;
+ transition: all 0.3s linear;
+}
+
+.banner button:hover{
+ background-color: brown;
+ letter-spacing: 2px;
+
+}
+
+
+
+.event-main{
+  text-align: center;
+  
+}
+.event-main h2{
+  margin: 0;
+  font-size: 30px;
+
+
+}
+.event-main span{
+  background-color: red;
+  height: 5px; 
+  width: 160px;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 10px 0 50px 0;
+}
+.event{
+  display: flex;
+  width: 80%;
+  margin: auto;
+
+}
+.event-box{
+width: 50%;
+margin: 10px;
+}
+.event-box img{
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 10px 10px 2px #8080807d;
+}
+.event-box h4{
+  font-size: 20px;
+  margin:15px 0 0 0;
+}
+.event-box p{}
+.event-box a{
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+
+}
+
+/* Explore the world*/
+
+.explore-section{
+  background-image: url(../images/father.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #1767d6b8;
+    background-blend-mode: multiply;
+    padding: 150px 0;
+    margin-top: 100px;
+    color: white;
+    background-attachment: fixed;
+}
+.explore-main{
+  display: flex;
+}
+.explore{
+  width: 50%;
+}
+.explore span{
+  background-color: red;
+  height: 5px;
+  width: 160px;
+  display: inline-block;
+  border-radius: 10px;
+  margin: -18px 0 32px 162px;
+}
+.explore h1{
+  font-size: 40px;
+}
+.explore p{
+  margin: -13px 182px 16px -1px;
+  font-weight: 600;
+}
+.explore a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  /* margin: 14px -8px -3px 4px; */
+}
+
+
+/* Tours & Destination*/
+
+.tours-main{
+  display: flex;
+  padding: 35px;
+
+}
+.tour{}
+.tour h3{}
+.tour p{}
+.tour a{}
+.tour img{}
+.img-one{
+    height: 284px;
+    object-fit: cover;
+    margin: 13px 0 3px 14px;
+    width: 336px;
+}
+.img-two{
+    margin: 0 11px -12px 15px;
+    object-fit: cover;
+    height: 386px;
+    width: 330px;
+}
+
+/* footer*/
+
+footer{
+  background-color: blue;
+  color: white;
+  padding: 60px 0px;
+  text-align: center;
+
+}
